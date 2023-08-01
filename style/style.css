@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/red-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+
+    background-attachment: fixed;
+}
+
+.navBar {
+    background-color: rgba(255, 235, 205, 0.128);
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLinks {
+    color: rgb(215, 151, 151);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Rubik Dirt', cursive;
+    /* position: relative; */
+}
+
+.navLinks:hover {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+#typedContainer {
+    display: flex;
+    height: 900px;
+    width: 900px;
+    padding-top: 50px;
+    left: 80px;
+}
+
+#typed {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 500px;
+    width: 900px;
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+    font-weight: bold;
+    /* animation: typing;
+    animation-duration: 8s;
+    animation-timing-function: steps(246, end);
+    animation-fill-mode: forwards;
+    flex-wrap: wrap; */
+}
+
+/* @keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+} */
+
+.aboutImages {
+    height: auto;
+    width: 300px;
+}
+
+.aboutContainer {
+    margin: 50px 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textAbout {
+    font-weight: bold;
+    color: white;
+    margin: 15px 0 20px 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.worksContainer {
+    margin: 50px 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.captionText {
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+#worksPage {
+    width: 500px;
+    margin: 80px;
+}
