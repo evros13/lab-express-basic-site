@@ -4,6 +4,7 @@ body {
     background-image: url(/images/red-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
     font-family: 'Inter', sans-serif;
 
     background-attachment: fixed;
@@ -44,17 +45,19 @@ body {
     white-space: nowrap;
     height: 500px;
     width: 900px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
     color: white;
     font-weight: bold;
-    /* animation: typing;
+    line-height: 60px;
+    animation: typing;
     animation-duration: 8s;
     animation-timing-function: steps(246, end);
     animation-fill-mode: forwards;
-    flex-wrap: wrap; */
+    flex-wrap: wrap; 
 }
 
-/* @keyframes typing {
+@keyframes typing {
     from {
         width: 0
     }
@@ -62,7 +65,7 @@ body {
     to {
         width: 100%
     }
-} */
+}
 
 .aboutImages {
     height: auto;
@@ -89,21 +92,38 @@ body {
     width: 800px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 
 }
 
 .captionText {
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Caveat', cursive;
     color: white;
+    padding: 0 0 20px 0;
+    font-size: 25px;
 }
 
 #link {
     text-decoration: none;
-    color: white;
+    color: rgb(217, 189, 189);
+    font-size: 19px;
 }
 
 #worksPage {
     width: 500px;
     margin: 80px;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    color: white;
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+audio {
+    display: none;
 }
